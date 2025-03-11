@@ -1,0 +1,40 @@
+{
+    "name": "mysql-crud-api",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "start:dev": "ts-node src/server.ts"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "joi": "^17.13.3",
+        "mysql2": "^3.12.0",
+        "reflect-metadata": "^0.2.2",
+        "rootpath": "^0.1.2",
+        "typeorm": "^0.3.21"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.13.9",
+        "nodemon": "^3.1.9",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.2"
+    },
+    "description": "",
+    "main": "server.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Davehhhh/Convert-the-Node.js-MySQL---CRUD-API-ORM-Sequelize-to-TypeORM-and-JS-to-TS.git"
+    },
+    "keywords": [],
+    "author": "",
+    "bugs": {
+        "url": "https://github.com/Davehhhh/Convert-the-Node.js-MySQL---CRUD-API-ORM-Sequelize-to-TypeORM-and-JS-to-TS/issues"
+    },
+    "homepage": "https://github.com/Davehhhh/Convert-the-Node.js-MySQL---CRUD-API-ORM-Sequelize-to-TypeORM-and-JS-to-TS#readme"
+}
